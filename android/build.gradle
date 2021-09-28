@@ -28,3 +28,10 @@ android {
         minSdkVersion 16
     }
 }
+
+dependencies {
+    implementation 'androidx.preference:preference:1.1.1'
+    implementation 'com.geetest.sensebot:sensebot:4.3.4.3'
+    implementation 'com.squareup.okhttp3:okhttp:3.10.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.5.0'
+}
